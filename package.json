@@ -10,6 +10,7 @@
     "axiom": "^0.1.6",
     "axion": "^0.1.0",
     "axios": "^0.17.1",
+    "eslint-config-rallycoding": "^3.2.0",
     "react": "16.0.0",
     "react-native": "0.51.0"
   },
