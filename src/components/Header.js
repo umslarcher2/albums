@@ -6,7 +6,7 @@ import { Text, View } from 'react-native';
 // Create a component
 const Header = (props) => {
   const { textStyle, viewStyle } = styles;
-
+  console.log('Constructing Header Now');
   return (
     <View style={viewStyle}>
       <Text style={textStyle}> {props.headerText} </Text>

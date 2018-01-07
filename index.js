@@ -8,7 +8,7 @@ import AlbumList from './src/components/AlbumList';
 // it is how the JS wil talk to react
 const App = () => (
   <View style={{ flex: 1 }}>
-    <Header headerText={'Albums'} />
+    <Header headerText={'Taylor Swift Albums'} />
     <AlbumList />
   </View>
 );

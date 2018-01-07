@@ -5,6 +5,7 @@ import CardSection from './CardSection';
 import Button from './Button';
 
 const AlbumDetail = ({ album }) => {
+  console.log('Constructing Album Detail Now');
   const { title, artist, image, thumbnail_image, url } = album;
   const {
     thumbnailStyle,

@@ -2,6 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 
 const Card = (props) => {
+  console.log('Constructing The Card Now');
   return (
     <View style={styles.containerStyle}>
       {props.children}
